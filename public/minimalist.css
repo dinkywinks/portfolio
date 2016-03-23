@@ -1,0 +1,125 @@
+body 
+{
+	padding-top: 20px;
+	font-family: "Lucida Sans Unicode", Arial,"Times New Roman", Times, serif;
+	font-size: 12px;
+	color: #666;
+	background: #fdfdfd;
+}
+
+body a
+{
+	color: #666;
+}
+
+#Wrap
+{
+	position:relative;
+	overflow:visible;
+	width:70%;
+	height:auto;
+	background:url(Name.png) no-repeat top right;
+}
+
+#Navbar
+{
+	position:relative;
+	text-align:left;
+	line-height: 15px;
+	font-size:11px;
+	padding-bottom:5px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-transform: lowercase;
+}
+
+#Navbar a
+{
+	text-decoration:none;
+	font-weight:bold;
+	text-transform: lowercase;
+}
+
+#Navbar a:hover
+{
+	text-transform: lowercase;
+	color:#ff4900;
+}
+
+#Separator
+{
+	display:block;
+	height:2px;
+	width:auto;
+	background-image:url(Separator.png);
+	background-repeat: repeat-x;
+}
+
+#Yield
+{
+	position:relative;
+	max-height:550px;
+	width:auto;
+	padding-top:8px;
+	overflow:hidden;
+
+}
+
+#Yield h1
+{
+	font-size:2em;
+	text-align:left;
+	text-transform:lowercase;
+}
+
+#Yield p
+{
+	font-size:1.4em;
+	line-height: 1.6em;
+	text-align:left;
+}
+
+#Yield a
+{
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#SectionImage img
+{
+	position:relative;
+	max-width:45%;
+	padding-right:20px;
+	display:block;
+	float:left;
+	overflow:hidden;
+}
+
+#MainImage
+{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+
+#MainImage img
+{
+	width:100%;
+	height:auto;
+}
+
+#Footer 
+{
+	position:relative;
+	padding-top:5px;
+	text-align:center;
+	font-size:9px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#888;
+	text-transform: lowercase;
+}
+
+#Footer a
+{
+	text-decoration:none;
+	text-transform: lowercase;
+}
